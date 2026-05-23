@@ -175,8 +175,8 @@ const Hero = () => {
               <Button
                 variant="contained"
                 component="a"
-                href="/Veerendra's_Resume.pdf"
-                download="Veerendra's_Resume.pdf"
+                href="/VEERENDRA_CHOWDARY.pdf"
+                download="VEERENDRA_CHOWDARY.pdf"
                 endIcon={<DownloadIcon />}
                 sx={{
                   px: { xs: 2.5, sm: 3.5 },
