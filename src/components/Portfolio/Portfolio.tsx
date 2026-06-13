@@ -6,6 +6,7 @@ import Hero from './Hero';
 // Lazy load below-the-fold sections for better Lighthouse performance
 const About = lazy(() => import('./About'));
 const EducationCertifications = lazy(() => import('./EducationCertifications'));
+const Experience = lazy(() => import('./Experience'));
 const Projects = lazy(() => import('./Projects'));
 const GitHubActivity = lazy(() => import('./GitHubActivity'));
 const Testimonials = lazy(() => import('./Testimonials'));
@@ -23,6 +24,7 @@ const Portfolio = () => {
       <Suspense fallback={null}>
         <About />
         <EducationCertifications />
+        <Experience />
         <Projects />
         <GitHubActivity />
         <Testimonials />

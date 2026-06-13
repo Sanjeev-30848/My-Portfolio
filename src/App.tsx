@@ -8,6 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Box, CircularProgress } from "@mui/material";
 
 import Index from "./pages/Index";
+import CustomCursor from "./components/ui/CustomCursor";
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Theme Context
@@ -254,6 +255,7 @@ const App = () => {
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <CustomCursor />
         <TooltipProvider>
           <Toaster />
           <Sonner />
