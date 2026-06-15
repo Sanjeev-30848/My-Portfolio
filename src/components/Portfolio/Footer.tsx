@@ -93,7 +93,7 @@ const Footer = () => {
                 color: '#ff9f1a'
               }}
             >
-              Sunkavalli Veerendra Chowdary
+              Veerendra Chowdary Sunkavalli
             </Typography>
             <Typography
               variant="body2"
