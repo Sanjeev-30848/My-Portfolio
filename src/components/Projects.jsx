@@ -1,11 +1,12 @@
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
+import { style } from "framer-motion/client";
 
 const projects = [
   {
     title: "Online Service Management System",
     description:
-      "Full Stack platform built using React, Spring Boot and MySQL with JWT authentication.",
-    tech: "React • Spring Boot • MySQL",
+      "Full Stack platform built using React, Spring Boot, MySQL with JWT authentication and automated mail sending.",
+    tech: "React • Spring Boot • MySQL • Postman API",
     github: "YOUR_GITHUB_LINK"
   },
   {
