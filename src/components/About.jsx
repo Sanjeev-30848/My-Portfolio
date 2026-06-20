@@ -6,12 +6,8 @@ function About() {
       </h2>
 
       <p className="mt-5">
-        Computer Science undergraduate specializing in
-        Artificial Intelligence, Computer Vision,
-        Explainable AI, and Full Stack Development.
-
-        Currently researching CNN-based disease detection
-        from chest X-rays using Grad-CAM.
+       Computer Science undergraduate professional with Honors through Research track (HTR) specializing in AI Research, 
+       Full Stack Development, and Healthcare-focused intelligent systems with experience in designing scalable web applications.
       </p>
     </section>
   );
