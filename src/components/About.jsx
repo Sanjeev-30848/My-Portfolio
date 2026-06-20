@@ -7,7 +7,7 @@ function About() {
 
       <p className="mt-5">
        Computer Science undergraduate professional with Honors through Research track (HTR) specializing in AI Research, 
-       Full Stack Development, and Healthcare-focused intelligent systems with experience in designing scalable web applications.
+       Full Stack Development, and Healthcare-focused intelligent systems with hands-on experience in designing scalable web applications.
       </p>
     </section>
   );
