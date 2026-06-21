@@ -5,6 +5,15 @@ const projects = [
   {
     title: "Online Service Management System",
     description:
+      "• Full Stack platform built using React, Spring Boot, MySQL with JWT authentication and automated mail sending. • Increased efficient storing of data. • Integrated REST API's for efficient CRUD operations and maintained error management.", 
+    tech: "React • Spring Boot • MySQL • Postman API",
+    BackendRepo: "https://github.com/dineshchanduaragala/fsad-sdp-backend-travelnest",
+    github: "YOUR_GITHUB_LINK"
+  },
+
+    {
+    title: "Online Medical Management System",
+    description:
       "Full Stack platform built using React, Spring Boot, MySQL with JWT authentication and automated mail sending.",
     tech: "React • Spring Boot • MySQL • Postman API",
     github: "YOUR_GITHUB_LINK"
@@ -16,13 +25,7 @@ const projects = [
     tech: "Python • TensorFlow • Grad-CAM",
     
   },
-  {
-    title: "Automatic Fire Alarm System",
-    description:
-      "Arduino based fire detection system with buzzer alerts and servo motor automation.",
-    tech: "Arduino • Embedded Systems",
-   
-  }
+
 ];
 
 function Projects() {
@@ -42,7 +45,7 @@ function Projects() {
             whileHover={{ y: -10 }}
             className="bg-white shadow-xl rounded-xl p-6"
           >
-            <h3 className="text-2xl font-bold mb-3">
+            <h3 className="text-2xl font-bold text-black mb-3">
               {project.title}
             </h3>
 
@@ -50,7 +53,7 @@ function Projects() {
               {project.description}
             </p>
 
-            <p className="font-medium mb-4">
+            <p className=" text-blue-700 font-medium mb-4">
               {project.tech}
             </p>
 

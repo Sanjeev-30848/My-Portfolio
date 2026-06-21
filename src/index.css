@@ -93,24 +93,25 @@ h2 {
 
 /* Project Cards */
 .project-card {
-  background: #111827;
+  background: #111827 !important; /* Forces the dark background even if Tailwind overrides it */
   border-radius: 20px;
   padding: 25px;
   transition: .3s;
   border: 1px solid #1f2937;
 }
 
+/* Fixes the invisible project names */
+.project-card h3, 
+.project-card h4, 
+.project-card .project-title {
+  color: #ffffff !important;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .project-card:hover {
   border-color: #3b82f6;
   transform: translateY(-8px);
-}
-
-.project-card h3 {
-  color: #000000;
-}
-
-.project-card p {
-  color: #374151;
 }
 
 /* Skills */
