@@ -16,30 +16,30 @@ interface BlogPost {
 const BLOG_POSTS: BlogPost[] = [
   {
     id: 1,
-    title: 'How I Built a Production E-Commerce Platform from Scratch',
+    title: 'How I Built a Service Management System from Scratch',
     excerpt:
-      'From zero to live orders — the full story of building Fresco Organic. How I handled product catalogs, coupon engines, COD-only checkout, and what I learned about working with a real client who had very specific requirements.',
+      'From making the project structure, using React as Frontend and Spring Boot as Backend. Implemented CRUD Operations, Managed databases , Implemeted JWT for authentication & Swagger UI.',
     category: 'Full-Stack',
     readTime: '8 min read',
-    date: 'May 2026',
+    date: 'Dec 2025',
     emoji: '🛒',
   },
   {
     id: 2,
-    title: 'Deploying Full-Stack Apps with CI/CD: Lessons from 3 Live Projects',
+    title: 'What I Learned Building Websites for University Clubs',
     excerpt:
-      'A practical guide based on my experience deploying React + Node.js applications. Covering Vercel, environment variables, MongoDB Atlas connections, domain setup, and the deployment mistakes that cost me hours of debugging.',
-    category: 'DevOps',
-    readTime: '6 min read',
-    date: 'Apr 2026',
-    emoji: '🚀',
+      'Building Smart Attendance Management System for KLU SAC (Student Activity Centre) taught me that user research matters more than tech stack decisions.',
+    category: 'Product Thinking',
+    readTime: '5 min read',
+    date: 'May 2026',
+    emoji: '🎓',
   },
   {
     id: 3,
-    title: 'What I Learned Building Websites for University Clubs',
+    title: 'Unrevealing the Blackbox property of AI guided Thoracic Abnormality Detection using Grad-CAM',
     excerpt:
-      'Building for KLU Esports and VIDHURA AI Club taught me that user research matters more than tech stack decisions. How I handled scope creep, non-technical stakeholders, and the pressure of launching before event deadlines.',
-    category: 'Product Thinking',
+      'Researched Explainable AI techniques for thoracic abnormality detection, leveraging Grad-CAM to uncover the decision-making process of deep learning models.',
+    category: 'Research',
     readTime: '5 min read',
     date: 'Mar 2026',
     emoji: '🎓',

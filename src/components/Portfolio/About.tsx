@@ -15,14 +15,9 @@ const About: React.FC = () => {
 
   const expertiseCards = [
     {
-      title: 'Cloud-Native Engineering',
-      description:
-        'I architect scalable serverless and microservices applications using AWS, Azure, and Spring Boot.'
-    },
-    {
       title: 'Full-Stack Development',
       description:
-        'Building robust, responsive applications across the MERN stack and Spring ecosystem from database to UI.'
+        'Building robust, responsive applications across the Spring ecosystem from database to UI.'
     },
     {
       title: 'DevOps & CI/CD Pipelines',
@@ -34,23 +29,23 @@ const About: React.FC = () => {
   const skillCategories = [
     {
       name: 'Languages',
-      skills: ['C', 'Java', 'JavaScript', 'TypeScript']
+      skills: ['C', 'Java', 'SQL', 'Python']
     },
     {
       name: 'Frameworks & Libraries',
-      skills: ['React', 'Vite', 'Tailwind CSS', 'Spring Boot', 'Node.js', 'Express.js']
+      skills: ['React', 'Vite', 'Tailwind CSS', 'Spring Boot']
     },
     {
       name: 'Cloud & DevOps',
-      skills: ['Docker', 'Kubernetes', 'Jenkins', 'AWS', 'Azure', 'GCP', 'CI/CD', 'GitHub Actions']
+      skills: ['Docker', 'Kubernetes', 'Jenkins', 'AWS', 'Azure', 'CI/CD']
     },
     {
       name: 'Databases',
-      skills: ['MongoDB', 'MySQL']
+      skills: ['MySQL']
     },
     {
       name: 'Design & Tools',
-      skills: ['UI/UX', 'Canva', 'Adobe Photoshop', 'Adobe Premiere Pro', 'DaVinci Resolve']
+      skills: ['UI/UX', 'Canva', 'Figma']
     }
   ];
 
@@ -138,13 +133,13 @@ const About: React.FC = () => {
                 </Typography>
 
                 <Typography variant="body1" sx={{ lineHeight: 1.85, color: c.textSecondary }}>
-                  Specializing in Cloud Native Software Engineering at KL University, I take ownership of projects from
-                  conception to deployment. Today, I focus on delivering high-quality, production-ready systems using modern DevOps practices.
+                  At KL University, I take ownership of projects from
+                  conception to deployment. Today, I focus on delivering high-quality, production-ready systems using modern technologies.
                 </Typography>
 
                 <Box sx={{ mt: 2.4, display: 'flex', gap: 1, flexWrap: 'wrap' }}>
                   <Chip label="Cloud & DevOps" sx={{ bgcolor: c.accentBg, color: c.accent, borderRadius: '6px' }} />
-                  <Chip label="MERN & Spring Boot" sx={{ bgcolor: c.accentBg, color: c.accent, borderRadius: '6px' }} />
+                  <Chip label="Full Stack Applications" sx={{ bgcolor: c.accentBg, color: c.accent, borderRadius: '6px' }} />
                   <Chip label="Scalable Architecture" sx={{ bgcolor: c.accentBg, color: c.accent, borderRadius: '6px' }} />
                 </Box>
               </CardContent>
@@ -172,7 +167,7 @@ const About: React.FC = () => {
                 <Box sx={{ display: 'grid', gap: 1.2, mb: 3 }}>
                   {[
                     'End-to-end full-stack development (React, Spring Boot)',
-                    'Cloud infrastructure & serverless architecture (AWS, Azure)',
+                    'Cloud infrastructure & serverless architecture (AWS)',
                     'Automated CI/CD pipelines and containerization (Docker)',
                     'Strong foundation in Data Structures & Algorithms'
                   ].map((point) => (

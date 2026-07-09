@@ -25,8 +25,8 @@ import { useThemeColors } from '../../hooks/useThemeColors';
 const SKILLS = [
   'React', 'TypeScript', 'Spring Boot', 'Node.js', 'MongoDB',
   'C', 'Java', 'JavaScript', 'Vite', 'Tailwind CSS', 'Express',
-  'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'Azure', 'GCP', 'CI/CD',
-  'MySQL', 'UI/UX', 'Adobe Photoshop', 'Canva', 'Premiere Pro', 'DaVinci'
+  'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'CI/CD',
+  'MySQL', 'UI/UX', 'Canva',
 ];
 
 const Hero = () => {
@@ -127,7 +127,7 @@ const Hero = () => {
                   mb: 2
                 }}
               >
-                Cloud-Native Full-Stack Engineer
+                Full-Stack Developer & Researcher
               </Typography>
 
               <Typography
@@ -140,8 +140,8 @@ const Hero = () => {
                   color: c.textPrimary
                 }}
               >
-                <Box component="span" sx={{ whiteSpace: { xs: 'normal', sm: 'nowrap' } }}>Veerendra Chowdary</Box> <br />
-                Sunkavalli
+                <Box component="span" sx={{ whiteSpace: { xs: 'normal', sm: 'nowrap' } }}>VENKATA SANJEEV</Box> <br />
+                KUCHUN
               </Typography>
 
               <Typography
@@ -154,7 +154,7 @@ const Hero = () => {
                 }}
                 className="accent-gradient-text"
               >
-                Architecting Scalable Cloud & Full-Stack Solutions.
+                Architecting Scalable Full-Stack Applications.
               </Typography>
 
               <Typography
@@ -295,7 +295,7 @@ const Hero = () => {
                       borderColor: c.accentBorder,
                     }
                   }}
-                  href="https://www.linkedin.com/in/veerendra-chowdary-sunkavalli-513b58309"
+                  href="https://www.linkedin.com/in/sanjeev-venkata-604836336/"
                   target="_blank"
                   aria-label="LinkedIn profile"
                 >
@@ -315,7 +315,7 @@ const Hero = () => {
                       borderColor: c.accentBorder,
                     }
                   }}
-                  href="https://github.com/veeru2005"
+                  href="https://github.com/Sanjeev-30848"
                   target="_blank"
                   aria-label="GitHub profile"
                 >
@@ -335,7 +335,7 @@ const Hero = () => {
                       borderColor: c.accentBorder,
                     }
                   }}
-                  href="mailto:sunkavalli.veerendra1973@gmail.com"
+                  href="mailto:2400030848csehtr@gmail.com"
                   aria-label="Send email"
                 >
                   <EmailIcon />
@@ -376,8 +376,8 @@ const Hero = () => {
             >
               <Box
                 component="img"
-                src="Web.jpg"
-                alt="Sunkavalli Veerendra Chowdary"
+                src="Sanjeev profile.jpg"
+                alt="KUCHUN VENKATA SANJEEV"
                 width={410}
                 height={440}
                 loading={heroLoading}
@@ -409,7 +409,7 @@ const Hero = () => {
                   Open to Opportunities
                 </Typography>
                 <Typography sx={{ color: c.textPrimary, fontSize: '0.9rem', mt: 0.4 }}>
-                  Cloud, DevOps & Full-Stack Engineering
+                  Full Stack Development & Research 
                 </Typography>
               </Box>
             </Box>
@@ -430,7 +430,7 @@ const Hero = () => {
                 Open to Opportunities
               </Typography>
               <Typography sx={{ color: c.textPrimary, fontSize: '0.82rem', mt: 0.35 }}>
-                Cloud, DevOps & Full-Stack Engineering
+                Full Stack Development & Research 
               </Typography>
             </Box>
           </Box>
