@@ -376,7 +376,7 @@ const Hero = () => {
             >
               <Box
                 component="img"
-                src="Sanjeev profile.jpg"
+                src="dist\Sanjeev profile.jpg"
                 alt="KUCHUN VENKATA SANJEEV"
                 width={410}
                 height={440}
