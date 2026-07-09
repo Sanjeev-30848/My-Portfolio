@@ -93,7 +93,7 @@ const Footer = () => {
                 color: '#ff9f1a'
               }}
             >
-              Veerendra Chowdary Sunkavalli
+              Kuchun Venkata Sanjeev
             </Typography>
             <Typography
               variant="body2"
@@ -239,7 +239,7 @@ const Footer = () => {
               display: { xs: 'none', sm: 'block' },
             }}
           >
-            © 2025 Veerendra Chowdary Sunkavalli. All Rights Reserved.
+            © 2026 Kuchun Venkata Sanjeev. All Rights Reserved.
           </Typography>
 
           <Typography
@@ -250,7 +250,7 @@ const Footer = () => {
               lineHeight: 1.6
             }}
           >
-            © 2025 Veerendra Chowdary Sunkavalli.<br />All Rights Reserved.
+            © 2026 Kuchun Venkata Sanjeev.<br />All Rights Reserved.
           </Typography>
         </Box>
       </Container>

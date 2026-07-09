@@ -201,7 +201,7 @@ const Navbar = () => {
                       textTransform: 'uppercase'
                     }}
                   >
-                    Veerendra
+                    Sanjeev
                   </Typography>
                 </Box>
               </Box>
