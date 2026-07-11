@@ -175,35 +175,19 @@ const Navbar = () => {
               justifyContent: 'space-between',
               width: '100%'
             }}>
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 0.9, md: 1.2 }, flexGrow: { xs: 1, md: 0 }, minWidth: { md: 200 } }}>
-                <Box
+              <Box sx={{ display: 'flex', alignItems: 'center', flexGrow: { xs: 1, md: 0 }, minWidth: { md: 200 } }}>
+                <Typography
                   sx={{
-                    width: { xs: 36, md: 44 },
-                    height: { xs: 36, md: 44 },
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255, 159, 26, 0.56)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    bgcolor: 'rgba(255, 159, 26, 0.08)'
+                    fontWeight: 800,
+                    fontSize: { xs: '0.75rem', sm: '0.92rem', md: '1rem' },
+                    color: '#ff9f1a',
+                    lineHeight: 1.1,
+                    letterSpacing: { xs: '0.025em', md: '0.04em' },
+                    textTransform: 'uppercase'
                   }}
                 >
-                  <Typography sx={{ color: '#ff9f1a', fontWeight: 'bold', fontSize: { xs: '0.95rem', md: '1.05rem' } }}>S</Typography>
-                </Box>
-                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                  <Typography
-                    sx={{
-                      fontWeight: 800,
-                      fontSize: { xs: '0.75rem', sm: '0.92rem', md: '1rem' },
-                      color: '#ff9f1a',
-                      lineHeight: 1.1,
-                      letterSpacing: { xs: '0.025em', md: '0.04em' },
-                      textTransform: 'uppercase'
-                    }}
-                  >
-                    Sanjeev
-                  </Typography>
-                </Box>
+                  Sanjeev
+                </Typography>
               </Box>
 
               {isMobile && (

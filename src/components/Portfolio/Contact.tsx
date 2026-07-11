@@ -76,6 +76,11 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
 
     try {
+      const accessKey = import.meta.env.VITE_WEB3FORMS_API_KEY;
+      if (!accessKey) {
+        throw new Error('Missing Web3Forms API key. Set VITE_WEB3FORMS_API_KEY in .env.');
+      }
+
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
@@ -83,7 +88,7 @@ const Contact: React.FC = () => {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: '550b5502-1b5f-4fb7-a344-cd848a78ef11',
+          access_key: accessKey,
           from_name: 'My Portfolio',
           subject: `New Portfolio Message from ${formData.name}`,
           name: formData.name,
