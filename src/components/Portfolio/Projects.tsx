@@ -41,7 +41,7 @@ interface Project {
 const STATIC_PROJECTS: Project[] = [
   {
     id: 4,
-    title: 'Serverless Team Chat (AWS)',
+    title: 'Online Service Management System',
     description: 'Built a fully serverless real-time chat application using AWS Lambda, API Gateway WebSocket, DynamoDB, and Cognito. Implemented secure JWT authentication and scalable real-time messaging architecture without managing servers.',
     imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1779559542/AWS_hpdr93.png', // Fallback image since none provided
     technologies: 'AWS Lambda, API Gateway, DynamoDB, Cognito, React, TypeScript',
