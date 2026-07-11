@@ -119,21 +119,21 @@ const Contact: React.FC = () => {
     {
       icon: <EmailIcon sx={{ fontSize: 30, color: '#ff9f1a' }} />,
       title: 'Email',
-      value: 'sunkavalli.veerendra1973@gmail.com',
-      link: 'mailto:sunkavalli.veerendra1973@gmail.com'
+      value: '2400030848csehtr@gmail.com',
+      link: 'mailto:2400030848csehtr@gmail.com'
     },
 
     {
       icon: <LocationIcon sx={{ fontSize: 30, color: '#ff9f1a' }} />,
       title: 'Location',
-      value: 'Rajahmundry, Andhra Pradesh, India',
-      link: 'https://maps.google.com/?q=Rajahmundry,+Andhra+Pradesh,+India'
+      value: 'Guntur, Andhra Pradesh, India',
+      link: 'https://maps.app.goo.gl/sLJLQYrFydKVGtFS6'
     }
   ];
 
   const socialLinks = [
-    { icon: <LinkedInIcon />, url: 'https://www.linkedin.com/in/veerendra-chowdary-sunkavalli-513b58309/', label: 'LinkedIn' },
-    { icon: <GitHubIcon />, url: 'https://github.com/veeru2005', label: 'GitHub' },
+    { icon: <LinkedInIcon />, url: 'https://www.linkedin.com/in/sanjeev-venkata-604836336/', label: 'LinkedIn' },
+    { icon: <GitHubIcon />, url: 'https://github.com/Sanjeev-30848', label: 'GitHub' },
   ];
 
   return (

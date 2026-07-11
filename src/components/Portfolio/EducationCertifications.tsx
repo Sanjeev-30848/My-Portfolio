@@ -16,27 +16,27 @@ interface Certification {
 
 const defaultEducations = [
   {
-    institution: 'Bhashyam Ramasethu Campus',
-    degree: 'SSC (10th)',
-    year: '2020 - 2021',
+    institution: 'Top Kids School',
+    degree: 'CBSE (10th)',
+    year: '2021 - 2022',
     location: 'Guntur, Andhra Pradesh, India',
     description: 'Finished high school with a primary focus on foundational courses in mathematics, sciences and languages.',
     image: '/brc.jpg'
   },
   {
-    institution: 'Bhashyam Titanic Campus',
+    institution: 'Vidwan Junior College',
     degree: 'Intermediate (11th and 12th)',
-    year: '2021 - 2023',
+    year: '2022 - 2024',
     location: 'Guntur, Andhra Pradesh, India',
     description: 'Focused on Mathematics, Physics, and Chemistry with consistent academic performance and problem-solving abilities.',
     image: '/btc.jpg'
   },
   {
     institution: 'KL University',
-    degree: 'B.Tech in CSE (Ongoing)',
-    year: '2023 - 2027',
+    degree: 'B.Tech in CSE - Honors through Research (Ongoing)',
+    year: '2024 - 2028',
     location: 'Vijayawada, Andhra Pradesh, India',
-    description: 'Currently pursuing B.Tech with interests in software engineering, algorithms, web development and specialising in Cloud Native Software Engineering.',
+    description: 'Currently pursuing B.Tech with interests in software engineering, algorithms, web development in Research track.',
     image: '/klu.jpg'
   }
 ];
@@ -44,27 +44,27 @@ const defaultEducations = [
 const staticCertifications: Certification[] = [
   {
     id: 1,
-    name: 'AZ-900: Azure Fundamentals',
-    issuer: 'Microsoft',
-    year: 'Aug 2025',
-    description: 'Fundamentals of cloud computing, Microsoft Azure services, core solutions, and security, compliance, and pricing best practices.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1757569931/opigqs1d37blod8oqzyv.jpg'
+    name: 'AWS CP-02F: AWS Certified Cloud Practitioner',
+    issuer: 'Amaxon Web Services (AWS)',
+    year: 'May 2026',
+    description: 'Fundamentals of cloud computing, Amazon web services, core solutions, and security, compliance, and pricing best practices.',
+    imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/AWS_Certified_Cloud_Practitioner_certificate_page-0001_rxylbi'
   },
   {
     id: 2,
-    name: 'Build Your Own Generative AI Model',
-    issuer: 'Net wave',
-    year: 'July 2025',
-    description: 'A comprehensive program covering the fundamentals of Generative AI, including model architecture, training techniques, and practical applications.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1757602604/wyhvmjfqlvvvqd5xlmrj.jpg'
+    name: 'Microsoft Git Copilot Certification',
+    issuer: 'Microsoft',
+    year: 'Nov 2025',
+    description: 'Demonstrated proficiency in GitHub Copilot, leveraging AI-assisted coding to enhance software development productivity and developer efficiency.',
+    imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/Microsoft_Github_Copilot_Certification_d0s88f'
   },
   {
     id: 3,
-    name: 'AI-ML Virtual Internship',
-    issuer: 'AP State Council of Higher Education (APSCHE)',
-    year: '2025',
-    description: 'Completed 10-week AI/ML internship focusing on real-world applications and hands-on projects. Achieved grade B (Good) through program backed by Google, EduSkills, and AICTE.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1760550786/ntznfm1r2z2laqnanblx.jpg'
+    name: 'Mobile App Development with React Native',
+    issuer: 'EduSkills Academy',
+    year: '2026',
+    description: 'Completed 8-week internship focusing on real-world applications and hands-on projects. Achieved good grade through program EduSkills.',
+    imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/Technical_Internship_Certification_page-0001_fn8ltx'
   },
   {
     id: 4,

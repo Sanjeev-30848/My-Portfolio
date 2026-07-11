@@ -23,8 +23,8 @@ import { useDownloadCounter } from '../../hooks/useDownloadCounter';
 import { useThemeColors } from '../../hooks/useThemeColors';
 
 const SKILLS = [
-  'React', 'TypeScript', 'Spring Boot', 'Node.js', 'MongoDB',
-  'C', 'Java', 'JavaScript', 'Vite', 'Tailwind CSS', 'Express',
+  'React','Spring Boot', 'Node.js',
+  'C', 'Java', 'JavaScript', 'Vite', 'Tailwind CSS',
   'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'CI/CD',
   'MySQL', 'UI/UX', 'Canva',
 ];
@@ -140,8 +140,9 @@ const Hero = () => {
                   color: c.textPrimary
                 }}
               >
-                <Box component="span" sx={{ whiteSpace: { xs: 'normal', sm: 'nowrap' } }}>VENKATA SANJEEV</Box> <br />
-                KUCHUN
+                <Box component="span" sx={{ whiteSpace: { xs: 'normal', sm: 'nowrap' } }}>Kuchun Venkata Sanjeev</Box>
+                <Box component="span" sx={{ display: 'block', fontSize: { xs: '0.9rem', md: '1.1rem' }, fontWeight: 600, mt: 0.6 }}>
+                </Box>
               </Typography>
 
               <Typography

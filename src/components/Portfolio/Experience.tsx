@@ -6,23 +6,16 @@ import { useThemeColors } from '../../hooks/useThemeColors';
 
 const experiences = [
   {
-    organization: 'KLU ESPORTS CLUB',
-    role: 'Web Developer',
-    duration: 'Jan 2026 - Present',
-    description: 'As a Web Developer, I built and deployed our official platform serving over 300 students. I also set up a seamless GitHub Actions CI/CD pipeline and created an intuitive team-based registration system.',
-    link: 'kluesports.in'
+    organization: 'KLU SAC',
+    role: 'Drafting Council',
+    duration: 'June 2026 - Present',
+    description: 'As Drafting council member, I have took the responsibilites of drafting SAC activites as well as helped in my research drafting.',
   },
   {
-    organization: 'VIDHURA CLUB',
-    role: 'Co-Founder, Designing Lead & Web Developer',
+    organization: 'KL VEDA (Student Body)',
+    role: 'Director, Research & Discovery wing',
     duration: 'Mar 2025 - July 2026',
-    description: 'Co-founding this club was a fantastic journey! I developed our official website, led an incredibly talented design team, and spearheaded marketing campaigns that really boosted our student engagement on campus.'
-  },
-  {
-    organization: 'VYUHA CLUB',
-    role: 'Co-Lead & Graphic Designing Head',
-    duration: 'July 2024 - Oct 2025',
-    description: 'I had a great time co-leading the club and heading the graphic design team. I mentored junior designers, collaborated on stunning visual assets for college fests, and completely revamped our digital presence.'
+    description: 'Focuses on Research driven projects, prototypes, publication of research papers and mentor UG students in their research field.'
   }
 ];
 
