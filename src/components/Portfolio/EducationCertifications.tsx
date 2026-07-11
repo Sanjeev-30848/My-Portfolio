@@ -68,28 +68,28 @@ const staticCertifications: Certification[] = [
   },
   {
     id: 4,
-    name: 'Cloud Infrastructure 2025 Certified DevOps Professional',
-    issuer: 'Oracle University',
-    year: 'Oct 2025',
-    description: 'Certified for expertise in DevOps on Oracle Cloud, including building and managing automated pipelines and secure cloud deployments. Valid until October 31, 2027.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1762451528/whufyprvnnpgwjr8glbd.jpg'
+    name: 'Certified C Developer',
+    issuer: 'W3 Schools',
+    year: 'June 2025',
+    description: 'Certified for expertise in C programming, including memory management, pointers, and data structures.',
+    imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/certificate_of_completion_c_page-0001_b4gven'
   },
-  {
-    id: 5,
-    name: 'Aviatrix Certified Engineer - Multicloud Network Associate (ACE)',
-    issuer: 'Aviatrix',
-    year: 'Oct 2025',
-    description: 'Skilled in multicloud networking and security using Aviatrix to build and manage solutions across AWS, Azure, GCP, and Oracle Cloud.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1762451858/oz0kbbqbsii4cglr09lj.jpg'
-  },
-  {
-    id: 6,
-    name: 'Certified Essentials Automation Professional',
-    issuer: 'Automation Anywhere',
-    year: 'Jan 2026',
-    description: 'Certified in essential automation practices with Automation Anywhere, covering core RPA concepts and workflow automation fundamentals.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1776617341/Essential_Automation_fdaumh.jpg'
-  }
+  // {
+  //   id: 5,
+  //   name: 'Aviatrix Certified Engineer - Multicloud Network Associate (ACE)',
+  //   issuer: 'Aviatrix',
+  //   year: 'Oct 2025',
+  //   description: 'Skilled in multicloud networking and security using Aviatrix to build and manage solutions across AWS, Azure, GCP, and Oracle Cloud.',
+  //   imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1762451858/oz0kbbqbsii4cglr09lj.jpg'
+  // },
+  // {
+  //   id: 6,
+  //   name: 'Certified Essentials Automation Professional',
+  //   issuer: 'Automation Anywhere',
+  //   year: 'Jan 2026',
+  //   description: 'Certified in essential automation practices with Automation Anywhere, covering core RPA concepts and workflow automation fundamentals.',
+  //   imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1776617341/Essential_Automation_fdaumh.jpg'
+  // }
 ];
 
 const CERT_IMAGE_WIDTHS = [320, 480, 640];
