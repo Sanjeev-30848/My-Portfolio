@@ -200,8 +200,8 @@ const Hero = () => {
                 <Button
                   variant="contained"
                   component="a"
-                  href="/VEERENDRA_CHOWDARY.pdf"
-                  download="VEERENDRA_CHOWDARY.pdf"
+                  href="/KUCHUN_VENKATA_SANJEEV_RESUME.pdf"
+                  download="/KUCHUN_VENKATA_SANJEEV_RESUME.pdf"
                   endIcon={<DownloadIcon />}
                   onClick={() => trackDownload()}
                   sx={{

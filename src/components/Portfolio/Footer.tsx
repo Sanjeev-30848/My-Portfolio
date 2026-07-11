@@ -17,9 +17,9 @@ import { useThemeColors } from '../../hooks/useThemeColors';
 const Footer = () => {
   const c = useThemeColors();
   const socialLinks = [
-    { icon: <LinkedInIcon />, url: 'https://www.linkedin.com/in/veerendra-chowdary-sunkavalli-513b58309/', label: 'LinkedIn' },
-    { icon: <GitHubIcon />, url: 'https://github.com/veeru2005', label: 'GitHub' },
-    { icon: <EmailIcon />, url: 'mailto:sunkavalli.veerendra1973@gmail.com', label: 'Email' }
+    { icon: <LinkedInIcon />, url: 'https://www.linkedin.com/in/sanjeev-venkata-604836336/', label: 'LinkedIn' },
+    { icon: <GitHubIcon />, url: 'https://github.com/Sanjeev-30848', label: 'GitHub' },
+    { icon: <EmailIcon />, url: 'mailto:2400030848csehtr@gmail.com', label: 'Email' }
   ];
 
   const quickLinks = [
@@ -206,7 +206,7 @@ const Footer = () => {
                 mb: 1
               }}
             >
-              📧 sunkavalli.veerendra1973@gmail.com
+              📧 2400030848csehtr@gmail.com
             </Typography>
 
             <Typography
@@ -215,7 +215,7 @@ const Footer = () => {
                 color: '#dce4f5'
               }}
             >
-              📍 Rajahmundry, Andhra Pradesh, India
+              📍 Guntur, Andhra Pradesh, India
             </Typography>
           </Box>
         </Box>
