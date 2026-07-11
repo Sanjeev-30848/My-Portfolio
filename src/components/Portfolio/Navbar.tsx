@@ -188,7 +188,7 @@ const Navbar = () => {
                     bgcolor: 'rgba(255, 159, 26, 0.08)'
                   }}
                 >
-                  <Typography sx={{ color: '#ff9f1a', fontWeight: 'bold', fontSize: { xs: '0.95rem', md: '1.05rem' } }}>V</Typography>
+                  <Typography sx={{ color: '#ff9f1a', fontWeight: 'bold', fontSize: { xs: '0.95rem', md: '1.05rem' } }}>S</Typography>
                 </Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                   <Typography

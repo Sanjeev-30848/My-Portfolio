@@ -37,7 +37,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Cloud & DevOps',
-      skills: ['Docker', 'Kubernetes', 'Jenkins', 'AWS', 'Azure', 'CI/CD']
+      skills: ['Docker', 'Kubernetes', 'Jenkins', 'AWS', 'CI/CD']
     },
     {
       name: 'Databases',
