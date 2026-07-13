@@ -34,7 +34,7 @@ interface Project {
   description: string;
   imageUrl: string;
   technologies: string;
-  liveUrl: string;
+  //liveUrl: string;
   githubUrl: string;
   caseStudy: CaseStudy;
 }
@@ -42,122 +42,129 @@ const STATIC_PROJECTS: Project[] = [
   {
     id: 4,
     title: 'Online Service Management System',
-    description: 'Built a fully serverless real-time chat application using AWS Lambda, API Gateway WebSocket, DynamoDB, and Cognito. Implemented secure JWT authentication and scalable real-time messaging architecture without managing servers.',
-    imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1779559542/AWS_hpdr93.png', // Fallback image since none provided
-    technologies: 'AWS Lambda, API Gateway, DynamoDB, Cognito, React, TypeScript',
-    liveUrl: '',
+    description: 'Built an Online Service Management System using React, Spring Boot and MySQL. Implemented secure JWT authentication and scalable real-time messaging architecture.',
+    imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/Screenshot_2026-07-13_175810_vmjjr6', 
+    technologies: 'React, Spring Boot, MySQL',
+
     githubUrl: '#',
     caseStudy: {
-      problem: 'Traditional WebSocket servers require constant provisioning, scaling, and maintenance. We needed a highly scalable, real-time messaging architecture that incurs zero costs when idle and scales infinitely without managing servers.',
-      approach: 'Leveraged AWS API Gateway WebSockets integrated with AWS Lambda for message routing. Used DynamoDB for fast, scalable message persistence and AWS Cognito for secure JWT authentication. Designed the frontend with React and TypeScript.',
+      problem: 'Traditional service booking and management systems are inefficient, causing delays, poor communication, and difficulty in tracking service requests.',
+      approach: 'Develop an online service management system that enables users to book, track, and manage services in real time through a centralized web platform with automated notifications with secure JWT authentication. Designed the frontend with React and Backend with SpringBoot.',
       techDecisions: [
-        'API Gateway WebSocket for managed persistent connections',
-        'DynamoDB for single-digit millisecond latency message retrieval',
-        'Cognito for seamless and secure user identity management',
-        'React & TypeScript for a robust, type-safe client interface',
+        'Spring Boot for scalable and secure RESTful backend services',
+        'React for a responsive, type-safe user interface',
+        'JWT Authentication for secure, stateless user access control',
+        'Spring Security for role-based authorization and endpoint protection',
+        'Hibernate (JPA) for efficient object-relational mapping and database operations',
+        'MySQL for storing data and performing efficent database operations',
+        'Swagger (OpenAPI) for interactive API documentation and testing',
       ],
-      outcome: 'Successfully deployed a real-time chat architecture that scales automatically with user load and costs virtually nothing during idle periods.',
+      outcome: 'Developed a scalable online service management platform that streamlines service requests, enhances operational efficiency, and improves user satisfaction through real-time tracking and secure management.',
       metrics: [
-        { label: 'Infrastructure', value: '100% Serverless' },
+        { label: 'Response Time', value: '< 200ms' },
         { label: 'Latency', value: '< 50ms' },
-        { label: 'Uptime', value: '99.99%' },
-        { label: 'Scalability', value: 'Infinite' },
+        { label: 'API Response', value: '< 200ms' },
+        { label: 'Scalability', value: 'High' },
       ],
     },
   },
   {
     id: 3,
-    title: 'Fresco Organic',
+    title: 'MediCare Connect',
     description:
-      'An e-commerce website for a pure organic fruits and groceries selling platform. Features a custom coupons system for user discounts and supports exclusively Cash on Delivery (COD) based on client requirements.',
+      'An online medical management system. Features streamlines patient registration, appointment scheduling, electronic medical records, and healthcare service management in one centralized system.',
     imageUrl:
-      'https://res.cloudinary.com/dpff7l6hb/image/upload/v1776618413/3_bbs0bf.png',
-    technologies: 'React, Node.js, MongoDB, Better Auth',
-    liveUrl: 'https://frescoo.tech/',
+      'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/Screenshot_2026-07-13_181324_sx3rxs',
+    technologies: 'React',
+
     githubUrl: '#',
     caseStudy: {
       problem:
-        'A local organic grocery store needed an online presence to reach more customers beyond their physical location. They required a simple ordering system with Cash on Delivery only — no complex payment gateway integration — and a custom coupon engine to drive repeat purchases.',
+        'Healthcare facilities often rely on fragmented or manual processes to manage patient records, appointments, and medical information, leading to delays, data inconsistencies, and poor coordination. Patients face long waiting times and limited access to their health records, while administrators struggle with inefficient workflows. A centralized online medical management system is needed to improve operational efficiency, data accessibility, and the overall quality of healthcare services.',
       approach:
-        'Built a full-stack MERN application with a focus on mobile-first responsive design. Implemented a custom coupon management system in the admin dashboard that allows the owner to create, edit, and expire discount codes. Used Better Auth for secure user authentication and session management.',
+        'Built a Frontend react application with a focus on responsive design. Implemented an online medical management system. The Doctors dashboard that allows the doctors to Add , edit, and write prescriptions.The Admin dashboard is made to manage the whole application data. The Pharmacist dashboard is made to check the stocks of medicine, check the prescriptions given by doctor and give medications accordingly.',
       techDecisions: [
-        'Chose MongoDB for flexible product schema — organic inventory changes frequently',
-        'Built a custom coupon engine instead of using third-party services to avoid monthly costs',
-        'Implemented COD-only checkout flow to match the client\'s local delivery model',
-        'Used Cloudinary for product image management to keep hosting costs low',
+        'Chosen React for responsive User Interface',
+        'Role Based Authentication for all the roles',
+        'Implemented MySQL to store the data and manage CRUD operations',
       ],
       outcome:
-        'Successfully launched and currently serving real customers. The client reports a noticeable increase in orders from areas previously unreachable by word-of-mouth alone.',
+        'Successfully made a reponsive online medical management system using only React and MySQL. This project has been done as a part of course in my 2-1 semester of Frontend Development and Frameworks, showcased the project in college hackathon.',
       metrics: [
         { label: 'Active Users', value: '150+' },
-        { label: 'Products Listed', value: '80+' },
+        { label: 'Doctors Registered', value: '20+' },
         { label: 'Avg Load Time', value: '1.8s' },
-        { label: 'Order Completion', value: '92%' },
+        { label: 'Medical Records', value: '100+' },
       ],
     },
   },
   {
     id: 2,
-    title: 'KLU-ESPORTS Platform',
+    title: 'Toursim Homestay Platform',
     description:
-      "Built and deployed the official KLU E-Sports website serving 300+ students for tournaments, registrations, and club activities. Automated deployment using a GitHub Actions CI/CD pipeline and developed a team-based registration system.",
+      "Built and deployed a comprehensive tourism homestay platform connecting travellers with local hosts, managing bookings, reviews, and communications. Implemented JWT authentication and a responsive design for seamless user experience across devices. ",
     imageUrl:
-      'https://res.cloudinary.com/dpff7l6hb/image/upload/v1776617167/1_fcqffj.png',
-    technologies: 'React, Node.js, MongoDB, Tailwind CSS, GitHub Actions',
-    liveUrl: 'https://kluesports.in',
+      'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/Screenshot_2026-07-13_183832_miskef',
+    technologies: 'React, Spring Boot, MySQL',
+
     githubUrl: '#',
     caseStudy: {
       problem:
-        'The KLU E-Sports club managed registrations via Google Forms, leading to chaos. They needed a centralized platform for event management and a team-based registration system using university member email IDs.',
+        'The tourism homestay platform lacked a centralized system for managing bookings, reviews, and communications between travellers and hosts. Where users find difficult to navigate and manage their stays.',
       approach:
-        'Designed a team-leader registration system where captains add members via email IDs, eliminating duplicates. Automated the deployment using a GitHub Actions CI/CD pipeline for seamless updates.',
+        'Designed a comprehensive platform with features for homestay listings, booking management, user reviews, and secure communication. Implemented JWT authentication for user security and a responsive design for cross-device compatibility.',
       techDecisions: [
-        'GitHub Actions for automated CI/CD deployment pipeline',
-        'Email-based team lookup reduces manual data entry',
-        'React and Tailwind CSS for a modern gaming aesthetic',
-        'MongoDB for flexible document storage of teams and events',
+        'Maintained Version Control (Github) for development',
+        'Used React for a dynamic and responsive frontend experience',
+        'Used Spring Boot for backend services and RESTful API development',
+        'Implemented MySQL for flexible and scalable data storage',
+        'Implemented JWT authentication for secure user access and data protection',
+        'Used Mui for consistent and accessible UI components',
+        'Swagger (OpenAPI) for interactive API documentation and testing',
+        'Email sending functionality for booking confirmations and notifications',
+        'Role Based Authentication for different user roles (travellers, hosts, admins, guides)',
       ],
       outcome:
-        'Adopted as the official platform, successfully serving 300+ students. Reduced registration time drastically and streamlined tournament brackets.',
+        'Developed a scalable tourism homestay platform that simplifies property bookings, enhances traveler experiences, and enables seamless communication between guests and hosts. The platform has been deployed for testing and is still in development for production, This platform results in increased bookings and improved user satisfaction.',
       metrics: [
-        { label: 'Students Served', value: '300+' },
-        { label: 'Deployment', value: 'CI/CD Automated' },
-        { label: 'Events', value: 'Live tracking' },
-        { label: 'Tech Stack', value: 'MERN' },
+        { label: 'Registered Travelers', value: '100+' },
+        { label: 'Guides', value: '50+' },
+        { label: 'Customer Rating', value: '4.6/5' },
+        { label: 'Tech Stack', value: 'Full Stack' },
       ],
     },
   },
-  {
-    id: 1,
-    title: 'VIDHURA AI & Data Science Club',
-    description:
-      'Where creativity meets technology. VIDHURA unites thinkers and creators to push AI and data science boundaries through projects, collaboration, and research.',
-    imageUrl:
-      'https://res.cloudinary.com/dpff7l6hb/image/upload/v1760550280/lwcnwbbx9ep8j3y4lrrg.png',
-    technologies: 'React, Node.js, MongoDB, Cloudinary',
-    liveUrl: 'https://vidhura-klu.tech/',
-    githubUrl: '#',
-    caseStudy: {
-      problem:
-        'VIDHURA, KLU\'s AI & Data Science club, lacked an online identity. Club activities, member achievements, and event announcements were scattered across social media with no central repository. New students had difficulty discovering the club or understanding its mission.',
-      approach:
-        'Created a modern, content-driven website with sections for events, team members, research projects, and a blog. Used Cloudinary for media management and MongoDB for dynamic content that club admins can update without code changes.',
-      techDecisions: [
-        'Component-based architecture allows easy addition of new sections as the club grows',
-        'Cloudinary integration for optimized image delivery — critical for event galleries',
-        'MongoDB-backed CMS-like admin panel for non-technical club coordinators',
-        'SEO-optimized pages to help the club appear in university-related searches',
-      ],
-      outcome:
-        'Became the official web presence for VIDHURA. Increased club visibility and helped drive 40% more applications during the next recruitment cycle.',
-      metrics: [
-        { label: 'Monthly Visitors', value: '300+' },
-        { label: 'Club Applications', value: '+40%' },
-        { label: 'Pages', value: '12+' },
-        { label: 'Media Assets', value: '50+' },
-      ],
-    },
-  },
+  // {
+  //   id: 1,
+  //   title: 'VIDHURA AI & Data Science Club',
+  //   description:
+  //     'Where creativity meets technology. VIDHURA unites thinkers and creators to push AI and data science boundaries through projects, collaboration, and research.',
+  //   imageUrl:
+  //     'https://res.cloudinary.com/dpff7l6hb/image/upload/v1760550280/lwcnwbbx9ep8j3y4lrrg.png',
+  //   technologies: 'React, Node.js, MongoDB, Cloudinary',
+
+  //   githubUrl: '#',
+  //   caseStudy: {
+  //     problem:
+  //       'VIDHURA, KLU\'s AI & Data Science club, lacked an online identity. Club activities, member achievements, and event announcements were scattered across social media with no central repository. New students had difficulty discovering the club or understanding its mission.',
+  //     approach:
+  //       'Created a modern, content-driven website with sections for events, team members, research projects, and a blog. Used Cloudinary for media management and MongoDB for dynamic content that club admins can update without code changes.',
+  //     techDecisions: [
+  //       'Component-based architecture allows easy addition of new sections as the club grows',
+  //       'Cloudinary integration for optimized image delivery — critical for event galleries',
+  //       'MongoDB-backed CMS-like admin panel for non-technical club coordinators',
+  //       'SEO-optimized pages to help the club appear in university-related searches',
+  //     ],
+  //     outcome:
+  //       'Became the official web presence for VIDHURA. Increased club visibility and helped drive 40% more applications during the next recruitment cycle.',
+  //     metrics: [
+  //       { label: 'Monthly Visitors', value: '300+' },
+  //       { label: 'Club Applications', value: '+40%' },
+  //       { label: 'Pages', value: '12+' },
+  //       { label: 'Media Assets', value: '50+' },
+  //     ],
+  //   },
+  // },
 ];
 
 const PROJECT_IMAGE_WIDTHS = [320, 480, 640, 800];
@@ -350,24 +357,7 @@ const Projects: React.FC = () => {
                         </Box>
                       </CardContent>
 
-                      <Box sx={{ px: 2, pb: 2, pt: 0, display: 'flex', justifyContent: project.liveUrl ? 'space-between' : 'flex-end', alignItems: 'center' }}>
-                        {project.liveUrl && (
-                          <Chip
-                            component="a"
-                            href={project.liveUrl}
-                            target="_blank"
-                            icon={<LaunchIcon sx={{ fontSize: 16, color: '#1a1205 !important' }} />}
-                            label="Live Demo"
-                            clickable
-                            sx={{
-                              bgcolor: '#ff9f1a',
-                              color: '#1a1205',
-                              fontWeight: 700,
-                              fontSize: '0.8rem',
-                              '&:hover': { bgcolor: '#ffab33' },
-                            }}
-                          />
-                        )}
+                      <Box sx={{ px: 2, pb: 2, pt: 0, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
                         <Chip
                           label="Case Study"
                           clickable
