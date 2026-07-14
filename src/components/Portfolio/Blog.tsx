@@ -28,8 +28,8 @@ const BLOG_POSTS: BlogPost[] = [
     id: 2,
     title: 'What I Learned Building Websites for University Clubs',
     excerpt:
-      'Building Smart Attendance Management System for KLU SAC (Student Activity Centre) taught me that user research matters more than tech stack decisions.',
-    category: 'Product Thinking',
+      'Building a Smart Attendance Management System for KLU SAC (Student Activity Centre) taught me that user research matters more than tech stack decisions.',
+    category: 'Portal Development',
     readTime: '5 min read',
     date: 'May 2026',
     emoji: '🎓',
