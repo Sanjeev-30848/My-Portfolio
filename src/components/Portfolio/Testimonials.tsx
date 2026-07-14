@@ -21,29 +21,29 @@ interface Testimonial {
 const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    name: 'Fresco Organic Client',
-    role: 'Business Owner',
-    org: 'Fresco Organic',
+    name: 'Online Medical System - Medicare Connect',
+    role: 'Team Member - Haindavi Pathakamudi',
+    org: 'KL-University',
     quote:
-      "Veerendra delivered exactly what we needed — a clean, professional online store that our customers find easy to use. The coupon system he built has been great for driving repeat orders. He understood our COD-only requirement perfectly and delivered ahead of schedule.",
-    rating: 5,
+      "Sanjeev delivered exactly what we team had thought — a clean, professional medical system that is easy to use. He understood our team requirements and delivered an application with good UI.",
+    rating: 4.5,
   },
   {
     id: 2,
-    name: 'KLU E-Sports Club',
-    role: 'Club President',
-    org: 'KLU ESPORTS',
+    name: 'Service Management System',
+    role: 'Reviewer',
+    org: 'KL University',
     quote:
-      "The E-Sports platform transformed how we manage events. Registration that used to take 15-20 minutes per team now takes under 2 minutes. The email-based team member lookup was a brilliant idea that saved us hours of manual verification during tournaments.",
+      "The service management system application has been designed well. Registration that used to take 15-20 minutes per manager for managing services now takes under 2 minutes. The mail sending option was brilliant idea that saves hours of manual verification during services for the customers. He added security for the system by implementing JWT Authentication module.",
     rating: 5,
   },
   {
     id: 3,
-    name: 'VIDHURA AI Club',
-    role: 'Club Coordinator',
-    org: 'VIDHURA - AI & DS Club',
+    name: 'Tourism Home Stay',
+    role: 'Team Leader',
+    org: 'KL University SDP Team Project',
     quote:
-      "Having a professional website gave our club instant credibility. The admin panel makes it easy for non-technical coordinators to update content. We saw 40% more applications after launching the site — it really helped students discover and understand our mission.",
+      "Having a professional website gave our team instant credibility. The admin panel makes it easy for guides and hosts to update content. We saw 40% more tourists after launching the site — it really helped tourists to  discover and understand our application.",
     rating: 5,
   },
 ];
