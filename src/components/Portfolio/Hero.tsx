@@ -200,8 +200,8 @@ const Hero = () => {
                 <Button
                   variant="contained"
                   component="a"
-                  href="/KUCHUN_VENKATA_SANJEEV_RESUME.pdf"
-                  download="/KUCHUN_VENKATA_SANJEEV_RESUME.pdf"
+                  href={`${import.meta.env.BASE_URL}KUCHUN_VENKATA_SANJEEV_RESUME.pdf`}
+                  download
                   endIcon={<DownloadIcon />}
                   onClick={() => trackDownload()}
                   sx={{
@@ -377,7 +377,7 @@ const Hero = () => {
             >
               <Box
                 component="img"
-                src="dist\Sanjeev profile.jpg"
+                src={`${import.meta.env.BASE_URL}Sanjeev profile.jpg`}
                 alt="KUCHUN VENKATA SANJEEV"
                 width={410}
                 height={440}
