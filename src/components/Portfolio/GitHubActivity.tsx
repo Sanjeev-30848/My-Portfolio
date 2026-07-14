@@ -9,7 +9,7 @@ interface ContributionDay {
   level: number; // 0-4
 }
 
-const GITHUB_USERNAME = 'veeru2005';
+const GITHUB_USERNAME = 'Sanjeev-30848';
 
 const getContributionColor = (level: number, isDark: boolean): string => {
   if (isDark) {

@@ -90,7 +90,7 @@ const Testimonials: React.FC = () => {
                 mb: 1,
               }}
             >
-              Client Feedback
+              Projects Feedback
             </Typography>
 
             <Typography variant="h3" align="center" fontWeight={800} sx={{ mb: 1.4, color: c.textPrimary }}>
