@@ -40,7 +40,7 @@ const TESTIMONIALS: Testimonial[] = [
   {
     id: 3,
     name: 'Tourism Home Stay',
-    role: 'Team Leader',
+    role: 'Team Leader - Dinesh Chandhu',
     org: 'KL University SDP Team Project',
     quote:
       "Having a professional website gave our team instant credibility. The admin panel makes it easy for guides and hosts to update content. We saw 40% more tourists after launching the site — it really helped tourists to  discover and understand our application.",
