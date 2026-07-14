@@ -31,7 +31,7 @@ const BLOG_POSTS: BlogPost[] = [
       'Building a Smart Attendance Management System for KLU SAC (Student Activity Centre) taught me that user research matters more than tech stack decisions.',
     category: 'Portal Development',
     readTime: '5 min read',
-    date: 'May 2026',
+    date: 'May 2026 - Present',
     emoji: '🎓',
   },
   {
@@ -41,7 +41,7 @@ const BLOG_POSTS: BlogPost[] = [
       'Researched Explainable AI techniques for thoracic abnormality detection, leveraging Grad-CAM to uncover the decision-making process of deep learning models.',
     category: 'Research',
     readTime: '5 min read',
-    date: 'Mar 2026',
+    date: 'Mar 2026 (Springer Publication under Review)',
     emoji: '🎓',
   },
 ];
