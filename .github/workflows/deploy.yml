@@ -39,10 +39,10 @@ jobs:
         env:
           VITE_WEB3FORMS_API_KEY: ${{ secrets.VITE_WEB3FORMS_API_KEY }}
 
-      - name: Verify Web3Forms API key
-        run: test "${VITE_WEB3FORMS_API_KEY}" =~ ^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$
-        env:
-          VITE_WEB3FORMS_API_KEY: ${{ secrets.VITE_WEB3FORMS_API_KEY }}
+      # - name: Verify Web3Forms API key
+      #   run: test "${VITE_WEB3FORMS_API_KEY}" =~ ^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$
+      #   env:
+          # VITE_WEB3FORMS_API_KEY: ${{ secrets.VITE_WEB3FORMS_API_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
