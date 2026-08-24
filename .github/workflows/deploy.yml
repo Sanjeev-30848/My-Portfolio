@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_WEB3FORMS_API_KEY: ${{ secrets[format('VITE_{0}', '8e34588e-cfb8-4a10-a3d9-c8b6f1fe224f')] }}
+          VITE_WEB3FORMS_API_KEY: ${{ secrets.VITE_WEB3FORMS_API_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
