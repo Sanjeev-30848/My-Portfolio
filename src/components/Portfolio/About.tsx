@@ -29,7 +29,7 @@ const About: React.FC = () => {
   const skillCategories = [
     {
       name: 'Languages',
-      skills: ['C', 'Java', 'SQL', 'Python']
+      skills: ['C', 'Java', 'SQL']
     },
     {
       name: 'Frameworks & Libraries',
@@ -41,7 +41,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Databases',
-      skills: ['MySQL']
+      skills: ['MySQL', 'PostgreSQL']
     },
     {
       name: 'Design & Tools',
