@@ -45,7 +45,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Design & Tools',
-      skills: ['UI/UX', 'Canva', 'Figma']
+      skills: ['Canva', 'Figma', 'Eclipse IDE', 'VS Code', 'Git', 'GitHub', 'Postman']
     }
   ];
 

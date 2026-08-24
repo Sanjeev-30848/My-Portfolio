@@ -23,10 +23,11 @@ import { useDownloadCounter } from '../../hooks/useDownloadCounter';
 import { useThemeColors } from '../../hooks/useThemeColors';
 
 const SKILLS = [
-  'React','Spring Boot', 'Node.js',
-  'C', 'Java', 'JavaScript', 'Vite', 'Tailwind CSS',
+  'React','Spring Boot',
+  'C', 'Java', 'Vite', 'Tailwind CSS',
   'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'CI/CD',
-  'MySQL', 'UI/UX', 'Canva',
+  'MySQL', 'PostgreSQL', 'Canva',
+  'Eclipse IDE', 'VS Code', 'Git', 'GitHub', 'Postman'
 ];
 
 const Hero = () => {
