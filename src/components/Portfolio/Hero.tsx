@@ -24,10 +24,10 @@ import { useThemeColors } from '../../hooks/useThemeColors';
 
 const SKILLS = [
   'React','Spring Boot',
-  'C', 'Java', 'Vite', 'Tailwind CSS',
+  'C', 'Java', 'Vite',
   'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'CI/CD',
   'MySQL', 'PostgreSQL', 'Canva',
-  'Eclipse IDE', 'VS Code', 'Git', 'GitHub', 'Postman'
+  'Eclipse IDE', 'VS Code', 'Git', 'GitHub', 'Postman', 'Swagger OpenAPI'
 ];
 
 const Hero = () => {
@@ -201,7 +201,7 @@ const Hero = () => {
                 <Button
                   variant="contained"
                   component="a"
-                  href={`${import.meta.env.BASE_URL}KUCHUN_VENKATA_SANJEEV_RESUME.pdf`}
+                  href={`${import.meta.env.BASE_URL}Kuchun_Venkata_Sanjeev_Resume_updated.pdf`}
                   download
                   endIcon={<DownloadIcon />}
                   onClick={() => trackDownload()}
