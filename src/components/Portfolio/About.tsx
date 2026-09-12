@@ -33,7 +33,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Frameworks & Libraries',
-      skills: ['React', 'Vite', 'Tailwind CSS', 'Spring Boot']
+      skills: ['React', 'Vite', 'Spring Boot']
     },
     {
       name: 'Cloud & DevOps',
@@ -45,7 +45,7 @@ const About: React.FC = () => {
     },
     {
       name: 'Design & Tools',
-      skills: ['Canva', 'Figma', 'Eclipse IDE', 'VS Code', 'Git', 'GitHub', 'Postman']
+      skills: ['Canva','Eclipse IDE', 'VS Code', 'Git', 'GitHub', 'Postman', 'Swagger OpenAPI']
     }
   ];
 
