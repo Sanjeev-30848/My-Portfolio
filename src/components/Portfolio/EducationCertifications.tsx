@@ -45,7 +45,7 @@ const staticCertifications: Certification[] = [
   {
     id: 1,
     name: 'AWS CP-02F: AWS Certified Cloud Practitioner',
-    issuer: 'Amaxon Web Services (AWS)',
+    issuer: 'Amazon Web Services (AWS)',
     year: 'May 2026',
     description: 'Fundamentals of cloud computing, Amazon web services, core solutions, and security, compliance, and pricing best practices.',
     imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/AWS_Certified_Cloud_Practitioner_certificate_page-0001_rxylbi'
