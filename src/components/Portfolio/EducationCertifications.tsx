@@ -74,14 +74,14 @@ const staticCertifications: Certification[] = [
     description: 'Certified for expertise in C programming, including memory management, pointers, and data structures.',
     imageUrl: 'https://res.cloudinary.com/xwva4r80/image/upload/f_auto,q_auto/certificate_of_completion_c_page-0001_b4gven'
   },
-  // {
-  //   id: 5,
-  //   name: 'Aviatrix Certified Engineer - Multicloud Network Associate (ACE)',
-  //   issuer: 'Aviatrix',
-  //   year: 'Oct 2025',
-  //   description: 'Skilled in multicloud networking and security using Aviatrix to build and manage solutions across AWS, Azure, GCP, and Oracle Cloud.',
-  //   imageUrl: 'https://res.cloudinary.com/dpff7l6hb/image/upload/v1762451858/oz0kbbqbsii4cglr09lj.jpg'
-  // },
+  {
+    id: 5,
+    name: 'Linguaskill Certificate in English (B2) - Cambridge Assessment English',
+    issuer: 'Cambridge Assessment English',
+    year: 'Oct 2025',
+    description: 'Demonstrated proficiency in English language skills at the B2 level, including reading, writing, listening, and speaking.',
+    imageUrl: 'https://res.cloudinary.com/qkz4hure/image/upload/f_auto,q_auto/CEFR_2400030848'
+  },
   // {
   //   id: 6,
   //   name: 'Certified Essentials Automation Professional',

@@ -134,37 +134,41 @@ const STATIC_PROJECTS: Project[] = [
       ],
     },
   },
-  // {
-  //   id: 1,
-  //   title: 'VIDHURA AI & Data Science Club',
-  //   description:
-  //     'Where creativity meets technology. VIDHURA unites thinkers and creators to push AI and data science boundaries through projects, collaboration, and research.',
-  //   imageUrl:
-  //     'https://res.cloudinary.com/dpff7l6hb/image/upload/v1760550280/lwcnwbbx9ep8j3y4lrrg.png',
-  //   technologies: 'React, Node.js, MongoDB, Cloudinary',
+  {
+    id: 1,
+    title: 'Microservices-Based Auction & Bidding Platform',
+    description:
+      'A scalable microservices-based platform designed to manage users, products, auctions, bidding, payments, and notifications through independently deployable services. Built with Spring Boot and cloud-native technologies to support secure, modular, and reliable application development.',
+    imageUrl:
+      'https://res.cloudinary.com/qkz4hure/image/upload/f_auto,q_auto/Linkedin_Article_Cover_Image',
+    technologies: 'Java, Spring Boot, Spring Cloud, REST API, MySQL, PostgreSQL, Eureka, API Gateway, JWT, Swagger, Docker',
 
-  //   githubUrl: '#',
-  //   caseStudy: {
-  //     problem:
-  //       'VIDHURA, KLU\'s AI & Data Science club, lacked an online identity. Club activities, member achievements, and event announcements were scattered across social media with no central repository. New students had difficulty discovering the club or understanding its mission.',
-  //     approach:
-  //       'Created a modern, content-driven website with sections for events, team members, research projects, and a blog. Used Cloudinary for media management and MongoDB for dynamic content that club admins can update without code changes.',
-  //     techDecisions: [
-  //       'Component-based architecture allows easy addition of new sections as the club grows',
-  //       'Cloudinary integration for optimized image delivery — critical for event galleries',
-  //       'MongoDB-backed CMS-like admin panel for non-technical club coordinators',
-  //       'SEO-optimized pages to help the club appear in university-related searches',
-  //     ],
-  //     outcome:
-  //       'Became the official web presence for VIDHURA. Increased club visibility and helped drive 40% more applications during the next recruitment cycle.',
-  //     metrics: [
-  //       { label: 'Monthly Visitors', value: '300+' },
-  //       { label: 'Club Applications', value: '+40%' },
-  //       { label: 'Pages', value: '12+' },
-  //       { label: 'Media Assets', value: '50+' },
-  //     ],
-  //   },
-  // },
+    githubUrl: '#',
+    caseStudy: {
+      problem:
+        'Traditional auction applications often combine user management, product management, bidding, auctions, payments, and notifications into a single tightly coupled application. This makes the system difficult to maintain, scale, test, and extend as the number of users and transactions increases.',
+      approach:
+        'Developed a modular microservices architecture where major business functionalities are separated into independent services. The platform includes User Service, Product Service, Bidding Service, Auction Service, Payment Service, and Notification Service, with an API Gateway providing a unified entry point. Eureka Service Discovery enables dynamic communication between services, while JWT-based authentication secures protected user operations. Swagger/OpenAPI is integrated for API documentation and testing.',
+      techDecisions: 
+      [ 'Microservices architecture separates business responsibilities into independently deployable services', 
+        'Spring Cloud Eureka enables service discovery and reduces hard-coded service dependencies', 
+        'API Gateway provides a single entry point for client requests and centralized routing', 
+        'JWT authentication secures user-related APIs and supports role-based access control', 
+        'REST APIs enable communication between independent microservices',
+        'PostgreSQL databases provide persistent storage for service-specific data', 
+        'Swagger/OpenAPI provides interactive API documentation and simplifies development and testing', 
+        'Docker-ready architecture supports consistent deployment across development and production environments',
+      ],
+      outcome:
+        'Delivered a modular auction platform architecture that improves maintainability, scalability, service independence, and API management. The system provides a foundation for extending auction workflows, real-time bidding, payment processing, and notification capabilities without tightly coupling the individual services.',
+      metrics: [ 
+        { label: 'Microservices', value: '6+' },
+        { label: 'API Gateway', value: '1' }, 
+        { label: 'Service Discovery', value: 'Eureka' }, 
+        { label: 'Authentication', value: 'JWT' }, 
+      ],
+    },
+  },
 ];
 
 const PROJECT_IMAGE_WIDTHS = [320, 480, 640, 800];

@@ -7,15 +7,21 @@ import { useThemeColors } from '../../hooks/useThemeColors';
 const experiences = [
   {
     organization: 'KLU SAC',
-    role: 'Drafting Council',
+    role: 'Documentation & Publications Division - Joint Secretary',
     duration: 'June 2026 - Present',
-    description: 'As Drafting council member, I have took the responsibilites of drafting SAC activites as well as helped in my research drafting.',
+    description: 'As Documentation & Publications Division - Joint Secretary, I have took the responsibilites of drafting SAC activites, generate reports as well as helped in my research drafting.',
   },
   {
     organization: 'KL VEDA (Student Body)',
     role: 'Director, Research & Discovery wing',
     duration: 'Mar 2025 - July 2026',
     description: 'Focuses on Research driven projects, prototypes, publication of research papers and mentor UG students in their research field.'
+  },
+  {
+    organization: 'KL University',
+    role: 'HR & Communications - Core Team Member',
+    duration: 'Surabhi 2026',
+    description: 'As HR & Communications - Core Team Member, I have took the responsibilites of maintaining the communication between the team members, and also helped in organizing the event Surabhi 2026.'
   }
 ];
 

@@ -41,7 +41,7 @@ const BLOG_POSTS: BlogPost[] = [
       'Researched Explainable AI techniques for thoracic abnormality detection, leveraging Grad-CAM to uncover the decision-making process of deep learning models.',
     category: 'Research',
     readTime: '5 min read',
-    date: 'Mar 2026 (Springer Publication under Review) and Indian Patent Published, 2026, Application No. [202641107116].',
+    date: 'Mar 2026 (publication under review) and Indian Patent Published, 2026, Application No. [202641107116].',
     emoji: '🎓',
   },
 ];
